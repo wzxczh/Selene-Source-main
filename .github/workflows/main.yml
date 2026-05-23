@@ -17,8 +17,7 @@ jobs:
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        # 升级到支持 Dart 3.5.4+ 的 Flutter 稳定版
-        flutter-version: '3.24.0'
+        flutter-version: '3.25.0'
         cache: true
 
     - name: Install dependencies
